@@ -1,0 +1,161 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f3eff0;
+}
+.navbar{
+    background-color: #15847b ;
+    height: 80px;
+    min-width: 100%; 
+    position: fixed;
+    z-index: 3;
+}
+.nav-link {
+    font-size: 25px;
+    color: black;
+   margin-left: 10px;
+}
+.photo{
+    margin-top: 200px;
+    width: 800px;
+    height: 600px;
+}
+.carousel-inner{
+  
+    text-align: center;
+}
+.btn{
+    
+    color: black;
+    margin-left: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.first-link{
+    color: black;
+    margin-left: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#link{
+   margin-left: 20px;
+}
+span{
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+.slide-one{
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+   text-align: center;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 20px;
+}
+
+.pphoto{
+    float: left;
+    width: 18rem;
+    height: 300px;
+    position: relative;
+    opacity: 1;
+    transition: all 1s;
+   
+}
+.about,.Policies{
+    width: 950px;
+}
+.first{
+    width: 18rem;
+    height: 300px;
+    position: absolute;
+    margin-top: -415px;
+    margin-left: -175px;
+    font-size: 70px;
+    opacity: 0.5;
+    transition: all 1s;
+    
+}
+.pphoto:hover{
+    opacity: 1;
+   
+}
+.first:hover{
+    opacity: 0;
+    
+
+}
+.history{
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.pagination{
+   justify-content: center;
+   margin-top: 20px;
+}
+.mission{
+    margin-left: 20px;
+}
+.form-inline{
+    margin-left: 500px;
+}
+.footer{
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+.fab{
+ margin-left: 620px;
+
+}
+.fabb,.fabbbb,.dfdfdfd{
+    margin-left:1px;
+
+}
+
+.toop{
+    margin-left: 1150px;
+  margin-top: -50px;
+}
+.col-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.phootoo{
+    width: 250px;
+    height: 300px;
+    margin-top: 25px;
+}
+.phootoo:hover{
+    transform:scale(1.055) ;
+    
+}
+.rate{
+    margin: 25px;
+}
+#id1{
+    width: 100px;
+    height: 35px;
+    float: left;
+}
+#id2{
+    width: 220px;
+    float: left;
+    height: 35px;
+}
+.secound-link{
+    margin-left: 20px;
+}
+.test{
+    height: 30px;
+  margin: auto;
+  padding: auto;
+}
